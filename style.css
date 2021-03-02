@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-container-after,
+.img-container-before {
+    position: absolute;
+}
+
+img {
+    height: 100vh;  
+}
+
+.img-container-before:active {
+    width: 50%;
+    overflow:hidden;
+}
